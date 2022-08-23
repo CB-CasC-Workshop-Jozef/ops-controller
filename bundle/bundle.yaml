@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "CB-CasC-Workshop-Jozef-ops-controller"
 description: "CloudBees CI configuration bundle for the CB-CasC-Workshop-Jozef ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/cb-casc-workshop-jozef/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
